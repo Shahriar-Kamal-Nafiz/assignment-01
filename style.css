@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1360px;
+    margin: 0 auto;
+}
+nav .nav-img{
+
+}nav .menu{
+    list-style-type: none;
+    display:flex ;
+    gap: 32px;
+
+}nav .menu a{
+    text-decoration: none;
+    color: black;
+}.btn{
+    color: white;
+    background-color: #30B868;
+    font-size: 16px;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight:500;
+}.open-sans-font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}header #banner .banner-container{
+    background-image: url("assets/hero-bg.png");
+    width: 1600px;
+    height: 674px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+
+}#banner .banner-container .banner-info{
+    max-width: 770px;
+    width: 48%;
+    margin: 0 auto;
+    padding: 115px 120px 180px 120px;
+
+}#banner .banner-container h1{
+    font-size: 71px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* text-shadow: 2px 2px 2px black; */
+    -webkit-text-stroke:1px black;
+}.green{
+    color:#30B868;
+}
+.early-access{
+    margin: 0 auto;
+    border: none;
+    width: 229px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color:#30B869;
+    font-size: 16px;
+
+}.plain-text{
+    font-size: 18px;
+    line-height: 24px;
+    text-shadow: 2px 2px 5px black;
+}.note-card-container{
+    display: flex;
+    gap: 24px;
+    width: 1360px;
+    margin: 44px auto;
+
+}.note-card{
+    width: 322px;
+    padding: 70px 24px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}.note .note-heading{
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}.note .note-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.note-card .note-img{
+    background-color: #F95555;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+
+    border-radius:50%;
+    text-align: center;
+    margin: 0 auto;
+}.normal-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}.note .note-card h4{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-top:16px;
+
+}
