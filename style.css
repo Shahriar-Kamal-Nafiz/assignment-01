@@ -183,13 +183,18 @@ nav .nav-img{
     margin-top: 120px;
 
 
+
 }.early-access-container h1{
     padding-bottom: 16px;
 }.early-access-container p{
     padding-bottom: 24px;
 }.early-access-container button{
     margin-bottom: 16px;
-}.footer-container{
+    margin:0 auto;
+}.early-button{
+    margin-bottom: 16px;
+}
+.footer-container{
     background-color: #001931;
 }.footer-container .footer-info{
     width: 85%;
